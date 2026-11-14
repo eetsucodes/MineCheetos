@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "minecheetos",
+  "version": "1.0.0",
+  "name": "MineCheetos",
+  "description": "A local single-player mod with a flight toggle.",
+  "entrypoints": {
+    "main": [
+      "dev.minecheetos.MineCheetos"
+    ],
+    "client": [
+      "dev.minecheetos.MineCheetosClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
